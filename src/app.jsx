@@ -71,7 +71,7 @@ function App() {
 			setShowEnd(true);
 		}
   }
-  
+
   return (
     <>
       <div className={styles.app}>
@@ -96,11 +96,9 @@ function App() {
 
                   <div className={styles.answer_section}>
                     {questions[currentQuestion].answerOptions.map((answerOption) => {
-                            return <button 
-                                      onClick={e => handleClick(e, answerOption.cityName)}
-                                      className={styles.button}>
+                            return <button onClick={e => handleClick(e, answerOption.cityName)} className={styles.button}>
                                         {answerOption.answerText}
-                                    </button>
+                                   </button>
                     })}
                   </div>
                 </>
