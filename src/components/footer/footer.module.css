@@ -1,0 +1,8 @@
+.footer {
+    bottom: 0;
+    width: 100vw;
+    background-color: #d0a8a8;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
