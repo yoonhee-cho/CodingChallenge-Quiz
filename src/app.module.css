@@ -55,6 +55,7 @@
   inline-size: 250px;
   overflow-wrap: break-word;
   transition: transform 250ms ease-in;
+  cursor: pointer;
 }
 
 .button:hover {
