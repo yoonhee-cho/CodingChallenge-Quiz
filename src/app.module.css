@@ -54,10 +54,12 @@
   border-style: none;
   inline-size: 250px;
   overflow-wrap: break-word;
+  transition: transform 250ms ease-in;
 }
 
-.button :active {
-  opacity: 0.5;
+.button:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
 }
 
 .end {
